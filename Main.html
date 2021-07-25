@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+	
+	</head>
+	<body>
+		<div>Cyberpunk Building Generator</div>
+		
+		<form>
+			<label for="amount_of_buildings">Select amount of buildings (between 1 and 15):</label>
+			<input type="number" id="amount_of_buildings" name="amount_of_buildings" min="1" max="15">
+			<input type="button" id="generate_button" value="Generate">
+		</form>
+		
+		<div id="table_div">
+			<span id="buildings_span"></span>
+			<table id="buildings_table"></table>
+		</div>
+	</body>
+	<script src="js/Cyberpunk.js"></script>
+</html>
